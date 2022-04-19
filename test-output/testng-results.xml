@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="2" failed="0" ignored="0" total="2" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="29" started-at="2022-04-18T06:56:41Z" finished-at="2022-04-18T06:56:41Z">
+    <groups>
+    </groups>
+    <test name="chromebrowser" duration-ms="29" started-at="2022-04-18T06:56:41Z" finished-at="2022-04-18T06:56:41Z">
+      <class name="org.crossbrowser.CrossBrowser">
+        <test-method status="FAIL" signature="browsers()[pri:0, instance:org.crossbrowser.CrossBrowser@1ce92674]" name="browsers" is-config="true" duration-ms="0" started-at="2022-04-18T12:26:41Z" finished-at="2022-04-18T12:26:41Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at org.base.BaseClass.impliwait(BaseClass.java:64)
+	at org.crossbrowser.CrossBrowser.browsers(CrossBrowser.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:144)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:169)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:421)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browsers -->
+        <test-method status="SKIP" signature="starttime()[pri:0, instance:org.crossbrowser.CrossBrowser@1ce92674]" name="starttime" is-config="true" duration-ms="0" started-at="2022-04-18T12:26:41Z" finished-at="2022-04-18T12:26:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- starttime -->
+        <test-method status="SKIP" signature="logintest(java.lang.String)[pri:0, instance:org.crossbrowser.CrossBrowser@1ce92674]" name="logintest" duration-ms="0" started-at="2022-04-18T12:26:41Z" finished-at="2022-04-18T12:26:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at org.base.BaseClass.impliwait(BaseClass.java:64)
+	at org.crossbrowser.CrossBrowser.browsers(CrossBrowser.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:144)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:169)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:421)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method status="SKIP" signature="endtime()[pri:0, instance:org.crossbrowser.CrossBrowser@1ce92674]" name="endtime" is-config="true" duration-ms="0" started-at="2022-04-18T12:26:41Z" finished-at="2022-04-18T12:26:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endtime -->
+        <test-method status="SKIP" signature="closebrowser()[pri:0, instance:org.crossbrowser.CrossBrowser@1ce92674]" name="closebrowser" is-config="true" duration-ms="0" started-at="2022-04-18T12:26:41Z" finished-at="2022-04-18T12:26:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- org.crossbrowser.CrossBrowser -->
+    </test> <!-- chromebrowser -->
+    <test name="edgebrowser" duration-ms="29" started-at="2022-04-18T06:56:41Z" finished-at="2022-04-18T06:56:41Z">
+      <class name="org.crossbrowser.CrossBrowser">
+        <test-method status="FAIL" signature="browsers()[pri:0, instance:org.crossbrowser.CrossBrowser@4bec1f0c]" name="browsers" is-config="true" duration-ms="0" started-at="2022-04-18T12:26:41Z" finished-at="2022-04-18T12:26:41Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at org.base.BaseClass.impliwait(BaseClass.java:64)
+	at org.crossbrowser.CrossBrowser.browsers(CrossBrowser.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:144)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:169)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:421)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browsers -->
+        <test-method status="SKIP" signature="starttime()[pri:0, instance:org.crossbrowser.CrossBrowser@4bec1f0c]" name="starttime" is-config="true" duration-ms="0" started-at="2022-04-18T12:26:41Z" finished-at="2022-04-18T12:26:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- starttime -->
+        <test-method status="SKIP" signature="logintest(java.lang.String)[pri:0, instance:org.crossbrowser.CrossBrowser@4bec1f0c]" name="logintest" duration-ms="1" started-at="2022-04-18T12:26:41Z" finished-at="2022-04-18T12:26:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at org.base.BaseClass.impliwait(BaseClass.java:64)
+	at org.crossbrowser.CrossBrowser.browsers(CrossBrowser.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:144)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:169)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:421)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method status="SKIP" signature="endtime()[pri:0, instance:org.crossbrowser.CrossBrowser@4bec1f0c]" name="endtime" is-config="true" duration-ms="0" started-at="2022-04-18T12:26:41Z" finished-at="2022-04-18T12:26:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endtime -->
+        <test-method status="SKIP" signature="closebrowser()[pri:0, instance:org.crossbrowser.CrossBrowser@4bec1f0c]" name="closebrowser" is-config="true" duration-ms="0" started-at="2022-04-18T12:26:41Z" finished-at="2022-04-18T12:26:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- org.crossbrowser.CrossBrowser -->
+    </test> <!-- edgebrowser -->
+  </suite> <!-- Suite -->
+</testng-results>
