@@ -3,15 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="org.practice.PracticeOne">
+      <class name="org.test.Task1MainPage">
         <methods>
-          <include name="runtme"/>
-          <include name="login"/>
-          <include name="launch"/>
-          <include name="ending"/>
-          <include name="endtme"/>
+          <include name="browsers"/>
+          <include name="closebrowser"/>
+          <include name="starttime"/>
+          <include name="endtime"/>
+          <include name="productSrch"/>
         </methods>
-      </class> <!-- org.practice.PracticeOne -->
+      </class> <!-- org.test.Task1MainPage -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
