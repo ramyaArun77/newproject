@@ -49,6 +49,7 @@ public class Task1MainPage extends BaseClass {
 	
 	@Test
 	private void productSrch() throws IOException {
+		System.out.println("Product search in amazon");
 		ProductSearch ps=new ProductSearch();
 		sendkeys(ps.getProductname(), "iphone 13 pro mobiles");
 		btnclick(ps.getProductsearch());
