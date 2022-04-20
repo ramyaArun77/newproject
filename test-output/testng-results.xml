@@ -2,32 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="11046" started-at="2022-04-20T04:51:41Z" finished-at="2022-04-20T04:51:53Z">
+  <suite name="Default suite" duration-ms="9584" started-at="2022-04-20T06:20:56Z" finished-at="2022-04-20T06:21:06Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="11046" started-at="2022-04-20T04:51:41Z" finished-at="2022-04-20T04:51:53Z">
-      <class name="org.test.Task1MainPage">
-        <test-method status="PASS" signature="browsers()[pri:0, instance:org.test.Task1MainPage@2f686d1f]" name="browsers" is-config="true" duration-ms="8120" started-at="2022-04-20T10:21:41Z" finished-at="2022-04-20T10:21:50Z">
+    <test name="Default test" duration-ms="9584" started-at="2022-04-20T06:20:56Z" finished-at="2022-04-20T06:21:06Z">
+      <class name="org.test1.Program1">
+        <test-method status="PASS" signature="browsers()[pri:0, instance:org.test1.Program1@59ec2012]" name="browsers" is-config="true" duration-ms="6072" started-at="2022-04-20T11:50:56Z" finished-at="2022-04-20T11:51:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browsers -->
-        <test-method status="PASS" signature="productSrch()[pri:0, instance:org.test.Task1MainPage@2f686d1f]" name="productSrch" duration-ms="2910" started-at="2022-04-20T10:21:50Z" finished-at="2022-04-20T10:21:52Z">
+        <test-method status="PASS" signature="productSrch()[pri:0, instance:org.test1.Program1@59ec2012]" name="productSrch" duration-ms="3500" started-at="2022-04-20T11:51:02Z" finished-at="2022-04-20T11:51:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- productSrch -->
-        <test-method status="PASS" signature="starttime()[pri:0, instance:org.test.Task1MainPage@2f686d1f]" name="starttime" is-config="true" duration-ms="0" started-at="2022-04-20T10:21:50Z" finished-at="2022-04-20T10:21:50Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- starttime -->
-        <test-method status="PASS" signature="endtime()[pri:0, instance:org.test.Task1MainPage@2f686d1f]" name="endtime" is-config="true" duration-ms="0" started-at="2022-04-20T10:21:52Z" finished-at="2022-04-20T10:21:52Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- endtime -->
-        <test-method status="PASS" signature="closebrowser()[pri:0, instance:org.test.Task1MainPage@2f686d1f]" name="closebrowser" is-config="true" duration-ms="0" started-at="2022-04-20T10:21:53Z" finished-at="2022-04-20T10:21:53Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closebrowser -->
-      </class> <!-- org.test.Task1MainPage -->
+      </class> <!-- org.test1.Program1 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
