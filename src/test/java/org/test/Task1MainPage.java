@@ -52,13 +52,9 @@ public class Task1MainPage extends BaseClass {
 		ProductSearch ps=new ProductSearch();
 		sendkeys(ps.getProductname(), "iphone 13 pro mobiles");
 		btnclick(ps.getProductsearch());
-//		List<WebElement> l = ps.getProductlist();
-//		System.out.println(ps.getProductlist().size());
-//		for(int i=0;i<l.size();i++) {
-//			WebElement e = l.get(i);
-//			String text = e.getText();
-//			System.out.println(text);
-//		}
+
+		
+		System.out.println("hacker");
 		List<Integer>no=new ArrayList();
 		List<WebElement> pp = ps.getProductprice();
 		System.out.println(ps.getProductprice().size());
